@@ -52,7 +52,6 @@ li{
         /*width: 100%;*/
         margin: 0;
         justify-content: space-evenly;
-        align-items: normal;
     }
 
     h1{
@@ -80,15 +79,21 @@ li{
         content: url("https://via.placeholder.com/900x400?");
         margin: auto 0;
     }
-    section{
-        /*flex-direction: column;*/
-        /*flex-wrap: wrap;*/
+    /*.main{*/
+    /*    width: 65%;*/
+    /*}*/
+    .main{
+        width: 50%;
+        display: inline-block;
+
     }
-    p{
-        /*flex-wrap: wrap;*/
+    .sub-section{
+        width: 50%;
+        display: inline-block;
     }
 
     footer{
         justify-self: flex-start;
+        width: 100%;
     }
 }
