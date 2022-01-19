@@ -50,9 +50,9 @@ li{
         display: flex;
         flex-flow: row wrap;
         /*width: 100%;*/
-        /*align-items: center;*/
         margin: 0;
-        /*justify-content: center;*/
+        justify-content: space-evenly;
+        align-items: normal;
     }
 
     h1{
@@ -62,9 +62,15 @@ li{
     .nav-links{
         flex-direction: row;
         /*padding-left: 30em;*/
-        justify-self: flex-end;
+        align-self: center;
         padding: 0;
     }
+
+    nav{
+        display: flex;
+        align-items: center;
+    }
+
     li{
         background-color: transparent;
         margin: 0 .5em;
@@ -74,11 +80,15 @@ li{
         content: url("https://via.placeholder.com/900x400?");
         margin: auto 0;
     }
-    .main{
+    section{
         /*flex-direction: column;*/
         /*flex-wrap: wrap;*/
     }
     p{
         /*flex-wrap: wrap;*/
+    }
+
+    footer{
+        justify-self: flex-start;
     }
 }
