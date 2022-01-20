@@ -96,12 +96,12 @@ footer{
     /*    width: 65%;*/
     /*}*/
     .main{
-        width: 50%;
+        width: 65%;
         display: inline-block;
 
     }
     .sub-section{
-        width: 50%;
+        width: 25%;
         display: inline-block;
     }
 
