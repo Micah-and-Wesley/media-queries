@@ -109,7 +109,7 @@ footer{
         justify-self: flex-start;
         width: 100%;
         position: absolute;
-        bottom: 20px;
-        left: 20px;
+        bottom: 10px;
+        left: 10px;
     }
 }
